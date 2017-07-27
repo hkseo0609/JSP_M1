@@ -2,17 +2,17 @@
 <%
 String option=request.getParameter("option");
 String search=request.getParameter("search");
-
+System.out.println(search);
 switch(option){
 	case "id": %>
 		<script>
-			location.href="member_detail.jsp?id=<%=search%>";
+			location.href="../member/member_detail.jsp?id=<%=search%>";
 		</script>
 		<%
 		break;
 	case "name": %>
 		<script>
-			location.href="member_list.jsp?name=<%=search%>";
+			location.href="../member/member_list.jsp?action=search&name=<%=search%>";
 		</script>
 		<%
 		break;

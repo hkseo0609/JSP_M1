@@ -6,7 +6,7 @@
 <h1 class="gms-h1">MEMBER SEARCH</h1>	
 </header>
 <hr /><br />
-<form id="member_search" action="<%=root(request) %>/member/service_search.jsp" method="get">
+<form id="member_search" action="<%=request.getContextPath()%>/member/service_search.jsp" method="get">
 	검색조건  <select name ="option"> 
 	<option value="id">ID</option>
 	<option value="name" >이름</option>

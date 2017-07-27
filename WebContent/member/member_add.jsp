@@ -1,11 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ include file = "member_head.jsp" %>
-<%@ include file = "member_service.jsp" %>
 	<header>
 	<h1 class="gms-h1">MEMBER ADD</h1>
 	</header>
 	<hr /><br />
-		<div id="image" class="gms-image"><a href="<%=root(request) %>/index.jsp"><img src="<%=root(request) %>/img/join.jpg" alt=""/></a></div><br />
+		<div id="image" class="gms-image"><a href="<%=request.getContextPath()%>/index.jsp"><img src="<%=request.getContextPath()%>/img/join.jpg" alt=""/></a></div><br />
 		<form id="join_form" action="service_add.jsp" class="form-edit">
 			<fieldset>
 			<legend>회원가입</legend>
@@ -45,7 +44,4 @@
 			<input type="reset" value="취소" class="submit-blue">
 			</fieldset>
 		</form>
-	
-	
-	</div>
 <%@ include file = "../common/footer.jsp" %>

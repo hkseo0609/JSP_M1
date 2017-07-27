@@ -13,14 +13,14 @@ insert into Member(id,pwd,name,ssn,regdate) values('bo','1234','박보영','9002
 insert into Member(id,pwd,name,ssn,regdate) values('se','1234','정세운','970101-2345678',sysdate);
 insert into Member(id,pwd,name,ssn,regdate) values('shin','1234','신세경','890101-2345678',sysdate);
 insert into Member(id,pwd,name,ssn,regdate) values('hhh','1234','tjtjtj','890101-2345678',sysdate);
+insert into member(phone) values('');
 
-SELECT * FROM MEMBER;
-SELECT * FROM MEMBER WHERE id = 'ho';
-UPDATE MEMBER
-SET pwd='22222'
-WHERE id='you';
-DELETE FROM MEMBER WHERE id='seo';
+UPDATE member SET name='bbb', phone='bbb' WHERE id='aaaa';
 
+SELECT * FROM MEMBER
+UPDATE MEMBER SET pwd='22222' WHERE id='you';
+DELETE FROM MEMBER WHERE id='qqqq';
+UPDATE member SET phone='010-1234-7777';
 
 SELECT * FROM board;
 SELECT COUNT(*)AS count FROM board;
@@ -41,4 +41,14 @@ UPDATE BOARD
 SET title='수정된 내용', content='수정된 내용'
 WHERE article_seq='1000';
 
+--major, subject, grade 테이블
+SELECT * FROM major;
+SELECT * FROM subject;
+SELECT * FROM grade;
+insert into major values('computer','컴공');
+insert into subject values('python','computer','python');
+
+update subject set major_id='computer' where title='자바';
+update member set major_id='computer';
+update MEMBER set name='유선호' where id='you';
 

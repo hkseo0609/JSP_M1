@@ -9,4 +9,4 @@
 </head>
 <body>
 <div id="wrapper">
-	<a href="<%=headRoot(request) %>/common/main.jsp" class="gms-gomain">메인으로 가기</a><br />
+	<a href="<%=headRoot(request) %>/index.jsp" class="gms-gomain">메인으로 가기</a><br />

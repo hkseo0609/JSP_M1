@@ -4,5 +4,4 @@
 	<h1 class="gms-h1">GRADE LIST</h1><br />
 	<hr /><br />
 	<div id="container"></div>
-</div>
 <%@ include file = "../common/footer.jsp" %>

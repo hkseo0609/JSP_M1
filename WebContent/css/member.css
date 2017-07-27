@@ -18,14 +18,19 @@
 .join-span{display: inline-block; width: 86px}
 .form-edit{width: 20%; margin: 0 auto;}
 /*list*/
-#mem-list-tab{width: 80%; margin: 0 auto; text-align: center;}
+#mem-list-tab{width: 90%; margin: 0 auto; text-align: center;}
 #mem-list-tab th{background-color: pink; border-bottom: 1px solid black; height: 40px;}
 #mem-list-tab td{border-bottom: 1px solid black; height: 30px;}
 /*detail*/
 #detail-tab{width: 500px; margin: 0 auto; text-align: center; border: 2px solid black;}
 #detail-tab tr{border: 1px solid black;}
 #detail-tab td{border: 1px solid black; height: 45px;}
-#detail-tab th{background-color: #ffd9df; width: 40%;}
+#detail-tab th{background-color: #ffd9df;}
+#btn_div {margin: 0 auto; width: 500px; text-align: center;}
+#list_btn{background-color: pink;  width:125px;}
+#update_btn{background-color: skyblue; width:125px;}
+#confirm_btn{background-color: pink;  width:125px;}
+#cancle_btn{background-color: skyblue; width:125px;}
 /*search*/
 #member_search{width: 25%; margin:0 auto;}
 

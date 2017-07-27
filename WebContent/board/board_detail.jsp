@@ -6,5 +6,4 @@
 	</header>
 	<hr /><br />
 	<div id="container"></div>
-</div>
 <%@ include file = "../common/footer.jsp" %>

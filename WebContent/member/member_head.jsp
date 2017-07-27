@@ -5,8 +5,8 @@
 <head>
 	<meta charset="UTF-8">
 <title>학생관리</title>
-<link rel="stylesheet" href="<%=headRoot(request) %>/css/member.css" />
+<link rel="stylesheet" href="<%=request.getContextPath()%>/css/member.css" />
 </head>
 <body>
 <div id="wrapper">
-	<a href="<%=headRoot(request) %>/common/main.jsp" class="gms-gomain">메인으로 가기</a><br />
+	<a href="<%=request.getContextPath()%>/index.jsp" class="gms-gomain">메인으로 가기</a><br />

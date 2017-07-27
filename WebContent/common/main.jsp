@@ -44,7 +44,7 @@
 		<td>
 			<ul class="index-ul" >
 				<li><a href="../member/member_add.jsp">학생정보 추가</a></li>
-				<li><a href="../member/member_list.jsp">학생정보 목록</a></li>
+				<li><a href="../member/member_list.jsp?action=list">학생정보 목록</a></li>
 				<li><a href="../member/member_search.jsp">학생 상세정보</a></li>
 				<li><a href="../member/member_update.jsp">학생정보 수정</a></li>
 				<li><a href="../member/member_delete.jsp">학생정보 삭제</a></li>

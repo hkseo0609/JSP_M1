@@ -17,5 +17,4 @@
 			<input type="submit" value="CANCLE" class="submit-blue">
 		</fieldset>
 		</form>
-</div>	
 <%@ include file = "../common/footer.jsp" %>
